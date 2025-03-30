@@ -1,10 +1,10 @@
 const express=require('express');
-const route =express.Router();
+const router =express.Router();
 
-const router =require('./../models/menu');
+const Menu =require('./../models/menu');
 
 
-route.post('/',async(req,res)=>{
+router.post('/',async(req,res)=>{
     try{
       const data= req.body
       const newmenu=new Menu(data);
@@ -19,7 +19,7 @@ route.post('/',async(req,res)=>{
   })
 
 
-  route.get('/',async(req,res)=>{
+  router.get('/',async(req,res)=>{
     try{
     
       const data= await Menu.find();
