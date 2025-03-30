@@ -91,4 +91,4 @@ The **Node Hotel** application is a Node.js-based system developed using the Exp
 This project is licensed under the MIT License.
 
 ## Author
-Developed by **Your Name**. Contributions are welcome!
+Developed by **Yogesh Patidar**. Contributions are welcome!
